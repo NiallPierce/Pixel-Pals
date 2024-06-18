@@ -1,0 +1,88 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* General styles */
+body{
+    background-color:#fff;
+    color: #3a3a3a;
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+  }
+
+  /* Header fixed while scrolling */
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    background-color: white;
+  }
+  .container {
+    display:flex;
+    justify-content:space-between;
+    align-items:center; 
+  }
+
+  #logo{
+    padding:0 10px;
+  }
+
+  #navbar li{
+    display:inline-block;
+  }
+
+  #navbar a{
+    text-decoration:none;
+    font-size:18px;
+    padding-right:15px;
+    color: #3a3a3a;
+  }
+
+  /* About Section */
+
+  #hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/about.jpg") no-repeat center center/cover;
+    position: relative;
+}
+ 
+.about {
+    background-color: black;
+    padding: 100px 0 20px 0;
+    text-align: center;
+}
+  /* About Heading */
+.about h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: white;
+}
+  /* About Section */
+.about p {
+    font-size: 1rem;
+    color: white;
+    max-width: 800px;
+    margin: 0 auto;
+}
+ 
+.about-info {
+    margin: 2rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+ 
+.about-info p {
+    font-size: 1.3rem;
+    margin: 0 2rem;
+    text-align: justify;
+}
